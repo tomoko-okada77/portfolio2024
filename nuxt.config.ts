@@ -23,5 +23,12 @@ export default defineNuxtConfig({
       path: '~/components', // サブフォルダのコンポーネントのオートインポートを可能に
       pathPrefix: false,
     },
-  ]
+  ],
+  app: {
+    pageTransition: { name: 'fade', mode: 'out-in' },
+    layoutTransition: { name: 'layout', mode: 'out-in' },
+  },
+  experimental: {
+    viewTransition: true
+  },
 })
