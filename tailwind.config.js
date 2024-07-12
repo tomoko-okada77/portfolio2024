@@ -12,8 +12,13 @@ export default {
     colors: {
       'primary': '#FFDE59',
       'secondary': '#A6A6A6',
+      'white': '#FFFFFF'
     },
-    extend: {},
+    extend: {
+      borderRadius: {
+        '4xl': '2rem',
+      }
+    },
   },
   plugins: [
     // theme.colorsをscssから使用できるよう:rootを定義

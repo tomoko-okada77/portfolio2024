@@ -3,7 +3,11 @@ import data from '../data/skills.json'
 </script>
 
 <template>
-  <PageTemplate :heading="'スキル'">
-    <DescriptionLists :lists="data.lists" />
-  </PageTemplate>
+  <Transition>
+    <div>
+      <PageTemplate :heading="'スキル'">
+        <DescriptionLists :lists="data.lists" />
+      </PageTemplate>
+    </div>
+  </Transition>
 </template>

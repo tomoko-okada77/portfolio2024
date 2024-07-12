@@ -3,7 +3,11 @@ import data from '../data/profile.json'
 </script>
 
 <template>
-  <PageTemplate :heading="'プロフィール'">
-    <DescriptionLists :lists="data.lists" />
-  </PageTemplate>
+  <Transition>
+    <div>
+      <PageTemplate :heading="'プロフィール'">
+        <DescriptionLists :lists="data.lists" />
+      </PageTemplate>
+    </div>
+  </Transition>
 </template>
