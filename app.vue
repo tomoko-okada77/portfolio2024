@@ -5,27 +5,18 @@
       to: '/',
     },
     {
-      label: 'External',
-      to: '/external',
+      label: 'プロフィール',
+      to: '/profile',
     },
     {
-      label: 'Component',
-      to: '/component',
+      label: 'スキル',
+      to: '/skills',
     },
   ]
 </script>
 
 <template>
-  <div class="container">
-    <NuxtLayout>
-      <NuxtPage />
-    </NuxtLayout>
-  </div>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
-
-<style lang="scss" scoped>
-.container {
-  width: 100vw;
-  height: 100vh;
-}
-</style>

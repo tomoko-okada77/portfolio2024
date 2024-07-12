@@ -1,0 +1,36 @@
+{
+  "lists": [
+    {
+      "label": "HTML5",
+      "text": "10年",
+      "note": "※セマンティックなマークアップを心がけています"
+    },
+    {
+      "label": "CSS3",
+      "text": "10年",
+      "note": "※レスポンシブ対応が得意です"
+    },
+    {
+      "label": "SCSS",
+      "text": "6年",
+      "note": "※mixin等を作成して効率的に実装できます"
+    },
+    {
+      "label": "JavaScript",
+      "text": "5年"
+    },
+    {
+      "label": "TypeScript",
+      "text": "2年"
+    },
+    {
+      "label": "Vue.js/Nuxt.js",
+      "text": "4年",
+      "note": "※Ver.3系対応経験あり"
+    },
+    {
+      "label": "React/Next.js",
+      "text": "3ヶ月"
+    }
+  ]
+}
