@@ -7,7 +7,7 @@ const props = defineProps<Props>();
 
 <template>
   <Heading :text="heading"></Heading>
-  <div class="md:p-12 md:ml-16">
+  <div class="md:p-8 md:ml-12">
     <slot />
   </div>
 </template>

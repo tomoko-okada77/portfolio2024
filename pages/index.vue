@@ -13,7 +13,6 @@ definePageMeta({
         <div class="mt-16 flex justify-center">
           <Button to="/profile" label="プロフィール" />
         </div>
-        <!-- <NuxtLink to="/profile">profile</NuxtLink> -->
       </div>
     </div>
   </Transition>

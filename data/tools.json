@@ -1,0 +1,52 @@
+{
+  "lists": [
+    {
+      "name": "Docker"
+    },
+    {
+      "name": "Git"
+    },
+    {
+      "name": "Sourcetree"
+    },
+    {
+      "name": "Jest"
+    },
+    {
+      "name": "Storybook"
+    },
+    {
+      "name": "Vuetify"
+    },
+    {
+      "name": "Tailwind"
+    },
+    {
+      "name": "AdobeXD"
+    },
+    {
+      "name": "AdobePhotoshop"
+    },
+    {
+      "name": "Figma"
+    },
+    {
+      "name": "Backlog"
+    },
+    {
+      "name": "Jira"
+    },
+    {
+      "name": "Asana"
+    },
+    {
+      "name": "Notion"
+    },
+    {
+      "name": "Slack"
+    },
+    {
+      "name": "Discord"
+    }
+  ]
+}
