@@ -1,0 +1,54 @@
+{
+  "lists": [
+    {
+      "date": "2013.06",
+      "title": "Web制作会社入社",
+      "description": "デザイナー、マークアップ、フロントエンドエンジニアとして、要件定義から実装、テスト、運用まで幅広く対応。コーディングガイドラインの策定や後進の指導も行なう。",
+      "productions": [
+        {
+          "name": "NEWoMan",
+          "url": null
+        },
+        {
+          "name": "東京ゲームショー2014/2015",
+          "url": null
+        }
+      ]
+    },
+    {
+      "date": "2018.01",
+      "title": "フリーランス独立",
+      "description": "CAグループのゲーム制作会社に常駐。Web制作チームのフロントエンドエンジニアとして、コーポレートサイトのリニューアルを担当。ゲーム内web viewの画面作成や業務用ツールの開発など幅広く担当しました。",
+      "productions": [
+        {
+          "name": "コーポレートサイト",
+          "url": "https://www.sumzap.co.jp/"
+        },
+        {
+          "name": "この素晴らしい世界に祝福を",
+          "url": "https://konosubafd.jp/"
+        }
+      ]
+    },
+    {
+      "date": "2020.01",
+      "title": "Webサービス開発",
+      "description": "Vue.jsをはじめとするモダンWebフロント技術を磨くため、多数の企業にて実装案件中心に受注。",
+      "productions": [
+        {
+          "name": "InspiartZ",
+          "url": "https://inspiart-z.com/"
+        },
+        {
+          "name": "この素晴らしい世界に祝福を",
+          "url": "https://konosubafd.jp/"
+        }
+      ]
+    },
+    {
+      "date": "2024.07",
+      "title": "現在",
+      "description": "クライアントワークを受注する傍ら、オンラインスクールにて英語とPHPを学習中"
+    }
+  ]
+}

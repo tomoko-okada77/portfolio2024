@@ -3,14 +3,32 @@
     {
       label: 'Home',
       to: '/',
+      page: 1
     },
     {
       label: 'プロフィール',
       to: '/profile',
+      page: 2
+    },
+    {
+      label: '経歴概要',
+      to: '/career',
+      page: 3
     },
     {
       label: 'スキル',
       to: '/skills',
+      page: 4
+    },
+    {
+      label: 'ツール',
+      to: '/tools',
+      page: 5
+    },
+    {
+      label: '強み',
+      to: '/strengths',
+      page: 6
     },
   ]
 </script>
