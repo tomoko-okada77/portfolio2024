@@ -6,7 +6,6 @@ interface Props {
   fontSize?: string;
 }
 const props = withDefaults(defineProps<Props>(), { width: "16rem", fontSize: "1.2rem" });
-
 </script>
 
 <template>

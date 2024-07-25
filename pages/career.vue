@@ -6,7 +6,7 @@ import data from '../data/career.json'
   <Transition>
     <div>
       <PageTemplate :heading="'経歴概要'">
-        <section v-for="career in data.lists" class="section mb-12 flex text-2xl">
+        <section v-for="(career, i) in data.lists" :key="i" class="section mb-12 flex text-2xl">
           <div class="date mr-8 font-semibold">
             {{ career.date }}
           </div>
@@ -16,16 +16,16 @@ import data from '../data/career.json'
             <div v-if="career.productions" class="mt-4 flex items-center text-xl">
               【制作実績】
               <ul class="flex">
-                <li v-for="(product, i) in career.productions">
+                <li v-for="(product, j) in career.productions">
                   <template v-if="product.url">
-                    <a :href="product.url" class="underline">
+                    <a :href="product.url" rel="nofollow noreferrer noopener" target="_blank" class="underline">
                       {{ product.name }}
                     </a>
                   </template>
                   <template v-else>
                     {{ product.name }}
                   </template>
-                  <template v-if="i + 1 < career.productions.length">/</template>
+                  <template v-show="j + 1 < career.productions.length">/</template>
                 </li>
               </ul>
               など

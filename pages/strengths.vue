@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import data from '../data/tools.json'
-</script>
-
 <template>
   <Transition>
     <div>
