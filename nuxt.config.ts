@@ -27,6 +27,7 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: 'fade', mode: 'out-in' },
     layoutTransition: { name: 'layout', mode: 'out-in' },
+    baseURL: '/portfolio2024/'
   },
   experimental: {
     viewTransition: true
