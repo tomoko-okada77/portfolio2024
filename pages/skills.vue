@@ -6,7 +6,9 @@ import data from '../data/skills.json'
   <Transition>
     <div>
       <PageTemplate :heading="'スキル'">
-        <DescriptionLists :lists="data.lists" />
+        <div class="mt-10">
+          <DescriptionLists :lists="data.lists" />
+        </div>
       </PageTemplate>
     </div>
   </Transition>

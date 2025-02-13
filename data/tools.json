@@ -1,52 +1,32 @@
 {
   "lists": [
     {
-      "name": "Docker"
+      "label": "開発環境・ツール",
+      "text": "Docker/MAMP"
     },
     {
-      "name": "Git"
+      "label": "バージョン管理",
+      "text": "Git/Sourcetree"
     },
     {
-      "name": "Sourcetree"
+      "label": "テスト・ドキュメント",
+      "text": "Jest/Storybook"
     },
     {
-      "name": "Jest"
+      "label": "UIフレームワーク",
+      "text": "Vuetify/Tailwind"
     },
     {
-      "name": "Storybook"
+      "label": "デザインツール",
+      "text": "Adobe XD/Adobe Photoshop/Figma"
     },
     {
-      "name": "Vuetify"
+      "label": "プロジェクト管理",
+      "text": "Backlog/Jira/Asana/Notion"
     },
     {
-      "name": "Tailwind"
-    },
-    {
-      "name": "AdobeXD"
-    },
-    {
-      "name": "AdobePhotoshop"
-    },
-    {
-      "name": "Figma"
-    },
-    {
-      "name": "Backlog"
-    },
-    {
-      "name": "Jira"
-    },
-    {
-      "name": "Asana"
-    },
-    {
-      "name": "Notion"
-    },
-    {
-      "name": "Slack"
-    },
-    {
-      "name": "Discord"
+      "label": "コミュニケーション",
+      "text": "Slack/Chatwork/Discord"
     }
   ]
 }

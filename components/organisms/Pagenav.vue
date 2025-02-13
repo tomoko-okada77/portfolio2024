@@ -13,7 +13,6 @@ const getPage = (path: string) => {
 }
 
 let page = ref(getPage(route.path) || 1)
-// let page = ref(1)
 
 const maxPage = nav.value.reduce((max, item) => (item.page > max ? item.page : max), 0);
 
@@ -25,20 +24,24 @@ const getPath = (page: number) => {
 }
 
 const prev = (): void => {
-  if(page.value <= 1) return
+  if(page.value === 1) return
   page.value --
 }
 const next = () => {
-  if(page.value >= maxPage) return
+  if (maxPage === page.value) return
   page.value ++
 }
+
+const prevTo = computed(() => {
+  return getPath(page.value)
+})
+const nextTo = computed(() => {
+  return getPath(page.value)
+})
 </script>
 
 <template>
   <div>
-    <!-- page: {{ page }}
-    prev:{{ getPath(page - 1) }}
-    next:{{ getPath(page + 1) }} -->
-    <NavButtons :prevTo="getPath(page - 1)" :nextTo="getPath(page)" @onClickPrev="prev" @onClickNext="next"  />
+    <NavButtons :prevTo="prevTo" :nextTo="nextTo" @onClickPrev="prev" @onClickNext="next"  />
   </div>
 </template>
