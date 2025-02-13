@@ -16,19 +16,29 @@
       "page": 3
     },
     {
+      "label": "作品",
+      "to": "/work",
+      "page": 4
+    },
+    {
+      "label": "作品",
+      "to": "/work2",
+      "page": 5
+    },
+    {
       "label": "スキル",
       "to": "/skills",
-      "page": 4
+      "page": 6
     },
     {
       "label": "ツール",
       "to": "/tools",
-      "page": 5
+      "page": 7
     },
     {
       "label": "強み",
       "to": "/strengths",
-      "page": 6
+      "page": 8
     }
   ]
 }

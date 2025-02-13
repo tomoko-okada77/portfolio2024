@@ -1,0 +1,20 @@
+{
+  "lists": [
+    {
+      "label": "Title",
+      "text": "Marketit"
+    },
+    {
+      "label": "制作時間",
+      "text": "35時間"
+    },
+    {
+      "label": "作品説明",
+      "text": "Laravelを使って作ったフリマアプリです。出品、購買の他、フォロー、お気に入り、コメント、レビュー、通知、フィルタリング機能も実装しました。"
+    },
+    {
+      "label": "使用言語・FW",
+      "text": "HTML, CSS, Bootstrap, PHP, MySQL, Laravel"
+    }
+  ]
+}

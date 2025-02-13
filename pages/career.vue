@@ -25,7 +25,7 @@ import data from '../data/career.json'
                   <template v-else>
                     {{ product.name }}
                   </template>
-                  <template v-show="j + 1 < career.productions.length">/</template>
+                  <template v-if="j + 1 < career.productions.length">、</template>
                 </li>
               </ul>
               など
