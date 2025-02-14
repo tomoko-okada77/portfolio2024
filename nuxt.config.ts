@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  ssr: false, 
+  // ssr: false, 
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
   // vite: {
@@ -28,7 +28,7 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: 'fade', mode: 'out-in' },
     layoutTransition: { name: 'layout', mode: 'out-in' },
-    baseURL: '/portfolio2024/'
+    // baseURL: '/portfolio2024/'
   },
   experimental: {
     viewTransition: true
