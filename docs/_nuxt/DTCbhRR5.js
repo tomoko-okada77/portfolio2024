@@ -1,0 +1,1 @@
+import{_ as s,c as t,S as c,o as n}from"./DP1fr-Q-.js";const o={},a={class:"page min-h-screen p-4 md:px-32"};function r(e,d){return n(),t("div",a,[c(e.$slots,"default",{},void 0,!0)])}const f=s(o,[["render",r],["__scopeId","data-v-0f406b8c"]]);export{f as default};
