@@ -3,6 +3,7 @@ import { useRoute } from 'vue-router';
 import data from '../../data/nav.json'
 
 const route = useRoute();
+const router = useRouter();
 const nav = ref(data.lists)
 
 const getPage = (path: string) => {
@@ -25,23 +26,24 @@ const getPath = (page: number) => {
 
 const prev = (): void => {
   if (page.value === 1) return
-  page.value --
+  page.value--
+  const path = getPath(page.value)
+  if (path) {
+    router.push(path)
+  }
 }
 const next = () => {
   if (maxPage === page.value) return
-  page.value ++
+  page.value++
+  const path = getPath(page.value)
+  if (path) {
+    router.push(path)
+  }
 }
-
-const prevTo = computed(() => {
-  return getPath(page.value)
-})
-const nextTo = computed(() => {
-  return getPath(page.value)
-})
 </script>
 
 <template>
   <div class="relative z-10">
-    <NavButtons :prevTo="prevTo" :nextTo="nextTo" @onClickPrev="prev" @onClickNext="next"  />
+    <NavButtons :has-prev="page === 1 ? false : true" :has-next="page === maxPage ? false : true" @onClickPrev="prev" @onClickNext="next"  />
   </div>
 </template>

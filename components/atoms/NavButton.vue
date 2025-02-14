@@ -1,8 +1,4 @@
 <script setup lang="ts">
-interface Props {
-  to: string | undefined;
-}
-const props = defineProps<Props>();
 interface Emits {
   (event: "onClick"): void;
 }
@@ -10,11 +6,11 @@ const emit = defineEmits<Emits>();
 </script>
 
 <template>
-  <NuxtLink :to="to" class="nav-link">
+  <div class="nav-link">
     <button @click="emit('onClick')" class="nav-button p-4 flex items-center justify-center">
       <img src="~/assets/images/icon_arrow.svg" alt=">">
     </button>
-  </NuxtLink>
+  </div>
 </template>
 
 <style lang="scss" scoped>
