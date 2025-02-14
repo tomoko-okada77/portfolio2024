@@ -1,0 +1,1 @@
+import{_ as s,c as o,S as r,o as t}from"./DP1fr-Q-.js";const c={},n={class:"page min-h-screen p-8 bg-primary"};function a(e,_){return t(),o("div",n,[r(e.$slots,"default")])}const p=s(c,[["render",a]]);export{p as default};
