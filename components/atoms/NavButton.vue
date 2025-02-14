@@ -28,5 +28,7 @@ const emit = defineEmits<Emits>();
   border-radius: 50%;
   background: var(--color-primary);
   color: #000;
+  position: relative;
+  z-index: 1;
 }
 </style>

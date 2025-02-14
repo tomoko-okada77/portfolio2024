@@ -17,11 +17,19 @@ const emit = defineEmits<Emits>();
 </template>
 
 <style lang="scss" scoped>
+  @import '~/assets/scss/_settings';
+
   .prev{
     left: 50px;
     transform: rotate(-180deg);
+    @include media-sp {
+      left: 28px;
+    }
   }
   .next {
     right: 50px;
+    @include media-sp {
+      right: 28px;
+    }
   }
 </style>

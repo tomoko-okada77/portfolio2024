@@ -24,7 +24,7 @@ const getPath = (page: number) => {
 }
 
 const prev = (): void => {
-  if(page.value === 1) return
+  if (page.value === 1) return
   page.value --
 }
 const next = () => {
@@ -41,7 +41,7 @@ const nextTo = computed(() => {
 </script>
 
 <template>
-  <div>
+  <div class="relative z-10">
     <NavButtons :prevTo="prevTo" :nextTo="nextTo" @onClickPrev="prev" @onClickNext="next"  />
   </div>
 </template>
