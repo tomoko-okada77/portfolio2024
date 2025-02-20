@@ -7,11 +7,11 @@
       "productions": [
         {
           "name": "NEWoMan公式サイト",
-          "url": null
+          "url": "https://www.newoman.jp/"
         },
         {
-          "name": "東京ゲームショー2014/2015",
-          "url": null
+          "name": "東京ゲームショー2014/2015/2016",
+          "url": "https://expo.nikkeibp.co.jp/tgs/2016/business/index.html"
         }
       ]
     },
