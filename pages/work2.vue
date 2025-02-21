@@ -6,13 +6,15 @@ import data from '../data/work2.json'
   <Transition>
     <div>
       <PageTemplate :heading="'作品2'">
-        <DescriptionLists :lists="data.lists" />
-        <ul class="flex gap-x-4">
-          <li class="work-item1"><img src="~/assets/images/coffee-bean-1.png" class="w-full" alt=""></li>
-          <li class="work-item2"><img src="~/assets/images/coffee-bean-2.png" alt=""></li>
-        </ul>
-        <div class="text-center mt-5">
-          <a href="https://tomoko-okada77.github.io/coffee-bean/" target="_blank" class="inline-flex items-center text-lg font-bold">サイトを見る<img src="~/assets/images/icon_arrow.svg" width="16" alt=">" class="ml-2"></a>
+        <div class="mt-9 mb-5">
+          <DescriptionLists :lists="data.lists" />
+          <ul class="flex gap-x-4">
+            <li class="work-item1"><img src="~/assets/images/coffee-bean-1.png" class="w-full" alt=""></li>
+            <li class="work-item2"><img src="~/assets/images/coffee-bean-2.png" alt=""></li>
+          </ul>
+          <div class="text-center mt-5">
+            <a href="https://tomoko-okada77.github.io/coffee-bean/" target="_blank" class="inline-flex items-center text-lg font-bold">サイトを見る<img src="~/assets/images/icon_arrow.svg" width="16" alt=">" class="ml-2"></a>
+          </div>
         </div>
       </PageTemplate>
     </div>

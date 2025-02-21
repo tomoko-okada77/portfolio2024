@@ -7,7 +7,16 @@ const props = defineProps<Props>();
 
 <template>
   <Heading :text="heading"></Heading>
-  <div class="md:p-8 md:ml-12">
-    <slot />
+  <div class="page-wrapper flex justify-center items-center mx-auto">
+    <div>
+      <slot />
+    </div>
   </div>
 </template>
+
+<style lang="scss" scoped>
+  .page-wrapper {
+    max-width: 980px;
+    min-height: calc(100vh - 88px - 4rem);
+  }
+</style>

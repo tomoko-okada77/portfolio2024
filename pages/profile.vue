@@ -6,7 +6,7 @@ import data from '../data/profile.json'
   <Transition>
     <div>
       <PageTemplate :heading="'プロフィール'">
-        <div class="mt-10">
+        <div>
           <DescriptionLists :lists="data.lists" />
         </div>
       </PageTemplate>

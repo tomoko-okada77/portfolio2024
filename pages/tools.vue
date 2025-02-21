@@ -6,9 +6,7 @@ import data from '../data/tools.json'
   <Transition>
     <div>
       <PageTemplate :heading="'ツール'">
-        <div class="mt-12">
-          <DescriptionLists :lists="data.lists" />
-        </div>
+        <DescriptionLists :lists="data.lists" />
       </PageTemplate>
     </div>
   </Transition>

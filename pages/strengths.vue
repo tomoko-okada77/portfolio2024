@@ -2,7 +2,7 @@
   <Transition>
     <div>
       <PageTemplate :heading="'強み'">
-        <p class="mt-12 font-semibold text-2xl tracking-wider leading-10">
+        <p class="mb-12 font-semibold text-2xl tracking-wider leading-10">
           多数のプロジェクトに携わった経験から、<br>
           様々なアプローチで<br>
           問題を解決する能力を身に付けてまいりました。<br>
@@ -16,9 +16,3 @@
     </div>
   </Transition>
 </template>
-
-<style scoped>
-.flex-wrap {
-  flex-wrap: wrap;
-}
-</style>
