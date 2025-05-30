@@ -10,8 +10,12 @@
           "url": "https://www.newoman.jp/"
         },
         {
-          "name": "東京ゲームショー2014/2015/2016",
+          "name": "東京ゲームショー2014-2016",
           "url": "https://expo.nikkeibp.co.jp/tgs/2016/business/index.html"
+        },
+        {
+          "name": "ペリエホール",
+          "url": "https://www.perie.co.jp/chiba/periehall/index.html"
         }
       ]
     },
@@ -38,6 +42,10 @@
         {
           "name": "InspiartZ",
           "url": "https://inspiart-z.com/"
+        },
+        {
+          "name": "BOOKERS",
+          "url": "https://bookers.tech/"
         }
       ]
     },
