@@ -440,6 +440,7 @@ definePageMeta({
 
 .illust {
   width: 42%;
+  max-width: 1200px;
   margin: auto;
 
   svg {
