@@ -2,27 +2,31 @@
   "lists": [
     {
       "label": "開発環境・ツール",
-      "text": "Docker/MAMP"
+      "text": "Docker/MAMP/IntelliJ IDEA"
     },
     {
       "label": "バージョン管理",
       "text": "Git/Sourcetree"
     },
     {
+      "label": "AI / コーディング支援",
+      "text": "GitHub Copilot / ChatGPT / Codex / Google Gemini / Claude Code / Cursor"
+    },
+    {
       "label": "テスト・ドキュメント",
-      "text": "Jest/Storybook"
+      "text": "Jest/Storybook/Kotest"
     },
     {
       "label": "UIフレームワーク",
-      "text": "Vuetify/Tailwind"
+      "text": "Tailwind/Vuetify"
     },
     {
       "label": "デザインツール",
-      "text": "Adobe XD/Adobe Photoshop/Figma"
+      "text": "Figma/Adobe XD/Adobe Photoshop"
     },
     {
       "label": "プロジェクト管理",
-      "text": "Backlog/Jira/Asana/Notion"
+      "text": "GitHub Projects/Backlog/Jira/Asana/Notion"
     },
     {
       "label": "コミュニケーション",

@@ -21,7 +21,7 @@
     },
     {
       "label": "TypeScript",
-      "text": "3年"
+      "text": "4年"
     },
     {
       "label": "Vue.js/Nuxt.js",
@@ -29,12 +29,17 @@
       "note": "※Ver.3系対応可能"
     },
     {
-      "label": "PHP/Laravel",
+      "label": "React/Next.js",
+      "text": "1年",
+      "note": "※AppRouter対応可能"
+    },
+    {
+      "label": "Kotlin",
       "text": "6ヶ月"
     },
     {
-      "label": "React/Next.js",
-      "text": "3ヶ月"
+      "label": "PHP/Laravel",
+      "text": "6ヶ月"
     }
   ]
 }
