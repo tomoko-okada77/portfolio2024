@@ -37,7 +37,7 @@
     {
       "date": "2020.01",
       "title": "Webサービス開発",
-      "description": "Vue.jsをはじめとするWebフロント技術を磨くため、多数の企業にてサービス開発案件に参画。",
+      "description": "Vue.js / Reactを主軸に、業務システム・SaaS・Webサービスの開発に継続的に参画",
       "productions": [
         {
           "name": "InspiartZ",
@@ -48,11 +48,6 @@
           "url": "https://bookers.tech/"
         }
       ]
-    },
-    {
-      "date": "2024.09",
-      "title": "オンラインスクール受講",
-      "description": "クライアントワークに尽力する傍ら、オンラインスクールにて英語とPHPを学習"
     }
   ]
 }
